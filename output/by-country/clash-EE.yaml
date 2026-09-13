@@ -14,7 +14,7 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: 94.183.170.135
+      Host: estproxy4.lockdwn.com
 - name: 🇪🇪 爱沙尼亚 (Estonia) 02 - xiaohe
   server: 94.183.170.135
   port: 8443
@@ -25,13 +25,13 @@ proxies:
   servername: estproxy4.lockdwn.com
   skip-cert-verify: false
 - name: 🇪🇪 爱沙尼亚 (Estonia) 03 - xiaohe
-  server: 31.76.71.63
+  server: news.gazette.help
   port: 443
   udp: true
   type: hysteria2
   password: sOiWCQ2AdIV0OWNuqQVyWp4JZnRxdyLROSjX
-  sni: cabinet.wwwinternetvideo.click
-  skip-cert-verify: true
+  sni: news.gazette.help
+  skip-cert-verify: false
 proxy-groups:
 - name: PROXIES
   type: select
