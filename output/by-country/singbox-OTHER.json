@@ -6,12 +6,12 @@
     {
       "type": "vless",
       "tag": "🌐 其他地区 (Other) 01 - xiaohe",
-      "server": "104.25.99.169",
-      "server_port": 2053,
-      "uuid": "50414e45-4c5f-5a45-5553-60c86b8747e5",
+      "server": "104.21.83.6",
+      "server_port": 443,
+      "uuid": "7700ff6d-cefb-4768-a806-ec4f63fe3b38",
       "tls": {
         "enabled": true,
-        "server_name": "web-app-aug8yr.app-f1qsy1.workers.dev",
+        "server_name": "5-m13.38c4495B-7e6D-4AAa-8A0a-3139Ff704E1F.Kdns.FR",
         "insecure": false,
         "utls": {
           "enabled": true,
@@ -20,9 +20,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/api/ws",
+        "path": "/ED3ZQPu7lqyeDGD58KabZ",
         "headers": {
-          "Host": "web-app-aug8yr.app-f1qsy1.workers.dev"
+          "Host": "5-m13.38c4495B-7e6D-4AaA-8a0A-3139ff704E1F.KdnS.Fr"
         }
       }
     },
