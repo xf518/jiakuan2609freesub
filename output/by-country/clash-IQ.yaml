@@ -5,29 +5,35 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: 188.114.97.6
-  port: 8080
+  server: 104.18.216.180
+  port: 2087
   udp: true
   type: vless
-  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
+  uuid: 845bd981-8725-4f9e-9ae8-6f500ec84001
+  tls: true
+  servername: w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: random
   network: ws
   ws-opts:
-    path: /vl/yLWNcuUuw1jlJpkDhGy
+    path: /vl/n4iEhIlCgZ2KerLvX8CLDGWraBrBwAq?ed=2560
     headers:
-      Host: fornewiran.ade-1000.workers.dev
+      Host: w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev
 - name: 🇮🇶 IQ 02 - xiaohe
-  server: www.speedtest.net
-  port: 80
+  server: 193.8.215.96
+  port: 9443
   udp: true
   type: vless
-  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
-  network: ws
-  ws-opts:
-    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
-    headers:
-      Host: young-rice-749e.heliy78750.workers.dev
+  uuid: d9d0f208-d582-41d5-bb7b-742671402810
+  tls: true
+  servername: hub-de-03.hanvpn.cc
+  skip-cert-verify: false
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: de03-grpc-8e47a
 - name: 🇮🇶 IQ 03 - xiaohe
-  server: 193.56.135.137
+  server: 193.56.135.233
   port: 9543
   udp: true
   type: vless

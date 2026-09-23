@@ -6,35 +6,53 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "188.114.97.6",
-      "server_port": 8080,
-      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
+      "server": "104.18.216.180",
+      "server_port": 2087,
+      "uuid": "845bd981-8725-4f9e-9ae8-6f500ec84001",
+      "tls": {
+        "enabled": true,
+        "server_name": "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev",
+        "insecure": false,
+        "alpn": [
+          "http/1.1"
+        ],
+        "utls": {
+          "enabled": true,
+          "fingerprint": "random"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/vl/yLWNcuUuw1jlJpkDhGy",
+        "path": "/vl/n4iEhIlCgZ2KerLvX8CLDGWraBrBwAq?ed=2560",
         "headers": {
-          "Host": "fornewiran.ade-1000.workers.dev"
+          "Host": "w2r2hnwmlm-p33c1-vnwd.hameddsharabi.workers.dev"
         }
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 02 - xiaohe",
-      "server": "www.speedtest.net",
-      "server_port": 80,
-      "uuid": "63f1ef69-92fd-427a-b3e4-98ffddf81ac6",
-      "transport": {
-        "type": "ws",
-        "path": "/nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=",
-        "headers": {
-          "Host": "young-rice-749e.heliy78750.workers.dev"
+      "server": "193.8.215.96",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
+      "tls": {
+        "enabled": true,
+        "server_name": "hub-de-03.hanvpn.cc",
+        "insecure": false,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
         }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "de03-grpc-8e47a"
       }
     },
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 03 - xiaohe",
-      "server": "193.56.135.137",
+      "server": "193.56.135.233",
       "server_port": 9543,
       "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
       "flow": "xtls-rprx-vision",
