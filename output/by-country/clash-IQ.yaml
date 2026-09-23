@@ -5,28 +5,55 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
-  server: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-  port: 443
+  server: 188.114.97.6
+  port: 8080
   udp: true
   type: vless
-  uuid: 38d6b629-64c2-4c31-a10d-26eb3a2a053d
-  tls: true
-  servername: lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev
-  skip-cert-verify: false
+  uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e
   network: ws
   ws-opts:
-    path: /vl/cxl8Wn1ylnsk63nJ0
+    path: /vl/yLWNcuUuw1jlJpkDhGy
+    headers:
+      Host: fornewiran.ade-1000.workers.dev
+- name: 🇮🇶 IQ 02 - xiaohe
+  server: www.speedtest.net
+  port: 80
+  udp: true
+  type: vless
+  uuid: 63f1ef69-92fd-427a-b3e4-98ffddf81ac6
+  network: ws
+  ws-opts:
+    path: /nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=
+    headers:
+      Host: young-rice-749e.heliy78750.workers.dev
+- name: 🇮🇶 IQ 03 - xiaohe
+  server: 193.56.135.137
+  port: 9543
+  udp: true
+  type: vless
+  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
+  flow: xtls-rprx-vision
+  tls: true
+  reality-opts:
+    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
+    short-id: 123abcde
+  servername: storage.yandexcloud.net
+  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇮🇶 IQ 01 - xiaohe
+  - 🇮🇶 IQ 02 - xiaohe
+  - 🇮🇶 IQ 03 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇮🇶 IQ 01 - xiaohe
+  - 🇮🇶 IQ 02 - xiaohe
+  - 🇮🇶 IQ 03 - xiaohe
 rules:
 - MATCH,PROXIES

@@ -6,8 +6,8 @@
     {
       "type": "vless",
       "tag": "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-      "server": "172.64.158.146",
-      "server_port": 2052,
+      "server": "172.64.32.108",
+      "server_port": 2086,
       "uuid": "47fcef29-ab4e-4aa6-932b-d95a18f28a4e",
       "transport": {
         "type": "ws",
@@ -18,11 +18,19 @@
       }
     },
     {
+      "type": "shadowsocks",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+      "server": "36.224.141.124",
+      "server_port": 50099,
+      "method": "chacha20-ietf-poly1305",
+      "password": "7e731ec3-f8e1-43f6-92cf-3978d14705c4"
+    },
+    {
       "type": "vless",
-      "tag": "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-      "server": "54.178.110.17",
+      "tag": "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
+      "server": "91.186.218.227",
       "server_port": 4443,
-      "uuid": "ca4f25f2-e3ff-47ed-ba35-ce0d02b6333d",
+      "uuid": "e3f097e5-0214-47ce-9127-7e5a5e968ffa",
       "tls": {
         "enabled": true,
         "server_name": "woc0zvrf11w2endu.dphdlc1u77bs3y4kvussbuap4p576f1ws7igthq8zbf3.workers.dev",
@@ -41,9 +49,22 @@
       }
     },
     {
+      "type": "vmess",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
+      "server": "hkgb707.ifastcdncache.com",
+      "server_port": 60852,
+      "uuid": "f8eca8df-a1a5-4918-a194-d34112a3673f",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/"
+      }
+    },
+    {
       "type": "vless",
-      "tag": "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
-      "server": "hinet1.2yly.com",
+      "tag": "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+      "server": "118.167.206.152",
       "server_port": 24215,
       "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
       "tls": {
@@ -51,7 +72,7 @@
         "server_name": "addons.mozilla.org",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "safari"
         },
         "reality": {
           "enabled": true,
@@ -62,19 +83,7 @@
     },
     {
       "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-      "server": "hkgb707.ifastcdncache.com",
-      "server_port": 60852,
-      "uuid": "f8eca8df-a1a5-4918-a194-d34112a3673f",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws"
-      }
-    },
-    {
-      "type": "vmess",
-      "tag": "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe",
+      "tag": "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe",
       "server": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn",
       "server_port": 443,
       "uuid": "d90e4077-bc7e-414d-a650-70bf1baae4d6",
@@ -85,11 +94,7 @@
         "insecure": false
       },
       "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "dee2309db4944c248b6d4372c6641e7b.oylfmxz.cn"
-        }
+        "type": "ws"
       }
     },
     {
@@ -98,10 +103,11 @@
       "outbounds": [
         "auto",
         "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe"
       ]
     },
     {
@@ -109,10 +115,11 @@
       "tag": "auto",
       "outbounds": [
         "🇺🇸 美国 (United States) 01 (家宽) - xiaohe",
-        "🇯🇵 日本 (Japan) 02 (家宽) - xiaohe",
-        "🇹🇼 中国台湾 (Taiwan) 03 (家宽) - xiaohe",
+        "🇹🇼 中国台湾 (Taiwan) 02 (家宽) - xiaohe",
+        "🇯🇵 日本 (Japan) 03 (家宽) - xiaohe",
         "🇭🇰 中国香港 (Hong Kong) 04 (家宽) - xiaohe",
-        "🇭🇰 中国香港 (Hong Kong) 05 (家宽) - xiaohe"
+        "🇹🇼 中国台湾 (Taiwan) 05 (家宽) - xiaohe",
+        "🇭🇰 中国香港 (Hong Kong) 06 (家宽) - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

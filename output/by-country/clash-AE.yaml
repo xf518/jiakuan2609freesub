@@ -5,8 +5,8 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇦🇪 阿联酋 (UAE) 01 - xiaohe
-  server: 104.17.169.13
-  port: 2053
+  server: 104.21.70.21
+  port: 443
   udp: true
   type: vless
   uuid: a22bff60-a40a-4250-bde2-4c660e363b47
@@ -48,7 +48,7 @@ proxies:
   port: 8443
   udp: true
   type: vless
-  uuid: fa34a94b-f304-4290-bd94-a83cc2ce21be
+  uuid: e580657d-c9b2-4bff-98c2-e63c5563d4b7
   flow: xtls-rprx-vision
   tls: true
   reality-opts:
@@ -77,9 +77,9 @@ proxies:
     public-key: SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js
     short-id: a1b2c3d4e5f67890
   servername: dzen.ru
-  client-fingerprint: safari
+  client-fingerprint: firefox
 - name: 🇦🇪 阿联酋 (UAE) 07 - xiaohe
-  server: 85.204.107.175
+  server: 85.204.107.177
   port: 8080
   udp: true
   type: hysteria2

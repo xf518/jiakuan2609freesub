@@ -27,27 +27,6 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 02 - xiaohe",
-      "server": "5.253.42.164",
-      "server_port": 40443,
-      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "deepl.com",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
-          "short_id": "68a8"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
       "server": "194.76.154.31",
       "server_port": 40443,
       "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
@@ -62,6 +41,27 @@
           "enabled": true,
           "public_key": "MN6QjUHDUXyteMdR-cDna89fq4X3qgQhLnNqTtRUbBQ",
           "short_id": "a8ae"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
+      "server": "132.243.242.97",
+      "server_port": 9543,
+      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandexcloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+          "short_id": "123abcdf"
         }
       }
     },
@@ -92,16 +92,16 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 05 - xiaohe",
-      "server": "5.253.28.218",
+      "server": "5.253.30.99",
       "server_port": 40443,
-      "uuid": "405b964e-a2d2-454f-aaaa-711cc218897c",
+      "uuid": "511c1563-2cb6-4064-abc6-a59ee49818a8",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "deepl.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "random"
+          "fingerprint": "edge"
         },
         "reality": {
           "enabled": true,
@@ -113,42 +113,21 @@
     {
       "type": "vless",
       "tag": "🇨🇾 塞浦路斯 (Cyprus) 06 - xiaohe",
-      "server": "132.243.242.97",
-      "server_port": 9543,
-      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
+      "server": "5.253.42.164",
+      "server_port": 40443,
+      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "storage.yandexcloud.net",
+        "server_name": "deepl.com",
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
           "enabled": true,
-          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
-          "short_id": "123abcdf"
-        }
-      }
-    },
-    {
-      "type": "vless",
-      "tag": "🇨🇾 塞浦路斯 (Cyprus) 07 - xiaohe",
-      "server": "5.188.114.71",
-      "server_port": 443,
-      "uuid": "765390bc-1daf-41dd-9012-a04b93f07139",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "de-s3.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "CmKaRa0TecpFSyn7OK6UTPPuWJ7ji2OwsaOBuUtSKGM",
-          "short_id": "7a3f9e2b1c8d4f6a"
+          "public_key": "g77ZJbm18JEotapmVRjaXi133MzkbhkU2lxhVeXx8zw",
+          "short_id": "68a8"
         }
       }
     },
@@ -162,8 +141,7 @@
         "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 05 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 06 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 07 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 06 - xiaohe"
       ]
     },
     {
@@ -175,8 +153,7 @@
         "🇨🇾 塞浦路斯 (Cyprus) 03 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 04 - xiaohe",
         "🇨🇾 塞浦路斯 (Cyprus) 05 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 06 - xiaohe",
-        "🇨🇾 塞浦路斯 (Cyprus) 07 - xiaohe"
+        "🇨🇾 塞浦路斯 (Cyprus) 06 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },

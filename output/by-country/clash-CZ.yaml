@@ -5,31 +5,46 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 104.17.147.22
+  server: 172.67.160.14
   port: 443
   udp: true
   type: vless
-  uuid: 4ccf70f9-7632-4b5a-9557-10d2dd347bb2
+  uuid: 0b41f339-5809-46ef-8351-b03fdc441539
   tls: true
-  servername: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
-  skip-cert-verify: true
-  client-fingerprint: chrome
+  servername: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
+  skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /vl/G4J8aNAVZt9KdOjjcfZDFDRI1Obr5E0?ed=2560
+    path: /vl/lYNtP7z8pJUmfp01tz5wEnuDujJtZ
     headers:
-      Host: to6r63-kkchighqm2.vxz0dduq7to7su0cdqf.workers.dev
+      Host: fpoixf69hqt3e6d4urtb.mamadneizeh.workers.dev
+- name: 🇨🇿 捷克 (Czech) 02 - xiaohe
+  server: 188.114.97.6
+  port: 2053
+  udp: true
+  type: vless
+  uuid: d4d2d3f3-9dec-4e8f-8daf-145ecac96e66
+  tls: true
+  servername: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiODgwQ1AwWDV0MnFTRWE1cCIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
+    headers:
+      Host: crimson-leaf-7e45.hzhduuebfjdcb.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 300
   proxies:
   - 🇨🇿 捷克 (Czech) 01 - xiaohe
+  - 🇨🇿 捷克 (Czech) 02 - xiaohe
 rules:
 - MATCH,PROXIES

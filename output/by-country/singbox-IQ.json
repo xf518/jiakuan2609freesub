@@ -6,17 +6,50 @@
     {
       "type": "vless",
       "tag": "🇮🇶 IQ 01 - xiaohe",
-      "server": "lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev",
-      "server_port": 443,
-      "uuid": "38d6b629-64c2-4c31-a10d-26eb3a2a053d",
-      "tls": {
-        "enabled": true,
-        "server_name": "lhns3ww2-cxq-gj1vvobkepig4nopkc.hqu4v38hi9iftcp6mzfmx-3bmx.workers.dev",
-        "insecure": false
-      },
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
       "transport": {
         "type": "ws",
-        "path": "/vl/cxl8Wn1ylnsk63nJ0"
+        "path": "/vl/yLWNcuUuw1jlJpkDhGy",
+        "headers": {
+          "Host": "fornewiran.ade-1000.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 02 - xiaohe",
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "uuid": "63f1ef69-92fd-427a-b3e4-98ffddf81ac6",
+      "transport": {
+        "type": "ws",
+        "path": "/nPKoVRUdyuRZ6jpY/YnBiLnlvdXNlZi5pc2VnYXJvLmNvbSxwcm94eWlwLmNtbGl1c3Nzcy5uZXQsbmltYS5uc2NsLmlyLHR1cmsucmFkaWNhbGl6YXRpb24uaXI=",
+        "headers": {
+          "Host": "young-rice-749e.heliy78750.workers.dev"
+        }
+      }
+    },
+    {
+      "type": "vless",
+      "tag": "🇮🇶 IQ 03 - xiaohe",
+      "server": "193.56.135.137",
+      "server_port": 9543,
+      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "storage.yandexcloud.net",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc",
+          "short_id": "123abcde"
+        }
       }
     },
     {
@@ -24,14 +57,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe",
+        "🇮🇶 IQ 02 - xiaohe",
+        "🇮🇶 IQ 03 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇮🇶 IQ 01 - xiaohe"
+        "🇮🇶 IQ 01 - xiaohe",
+        "🇮🇶 IQ 02 - xiaohe",
+        "🇮🇶 IQ 03 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
