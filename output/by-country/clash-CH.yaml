@@ -26,6 +26,13 @@ proxies:
   sni: hopp-swizland-new.mysynology.net
   skip-cert-verify: true
 - name: 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
+  server: 132.243.175.144
+  port: 8388
+  udp: true
+  type: ss
+  cipher: chacha20-ietf-poly1305
+  password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3
+- name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
   server: 131.123.34.145
   port: 8081
   udp: true
@@ -34,29 +41,6 @@ proxies:
   network: ws
   ws-opts:
     path: /vless-test
-- name: 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
-  server: 151.242.2.81
-  port: 443
-  udp: true
-  type: vless
-  uuid: 0a2dde28-70da-4863-a06f-35d007d94d35
-  tls: true
-  servername: cf9.rumedia-cdn.com
-  skip-cert-verify: false
-  client-fingerprint: qq
-  network: ws
-  ws-opts:
-    path: /cdn/v3/live
-- name: 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
-  server: 152.67.75.161
-  port: 443
-  udp: true
-  type: hysteria2
-  password: 3a702d4d1de4949005d8431220e040fb
-  sni: www.bing.com
-  skip-cert-verify: true
-  obfs: salamander
-  obfs-password: c13f29db6a638ad2b211b9ce2669ef27
 proxy-groups:
 - name: PROXIES
   type: select
@@ -66,7 +50,6 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -76,6 +59,5 @@ proxy-groups:
   - 🇨🇭 瑞士 (Switzerland) 02 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 03 - xiaohe
   - 🇨🇭 瑞士 (Switzerland) 04 - xiaohe
-  - 🇨🇭 瑞士 (Switzerland) 05 - xiaohe
 rules:
 - MATCH,PROXIES
