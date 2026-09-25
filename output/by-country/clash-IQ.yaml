@@ -5,6 +5,21 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇶 IQ 01 - xiaohe
+  server: soskeynets.ghydgdbdbddvv.workers.dev
+  port: 443
+  udp: true
+  type: vless
+  uuid: 07821f66-cdb7-4c70-9de6-e230cffac470
+  tls: true
+  servername: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+  skip-cert-verify: false
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: '/vl/Li1khIHH3DNItJyzraemsPBQvu '
+    headers:
+      Host: wgrcqwtkfyqujs43.ghydgdbdbddvv.workers.dev
+- name: 🇮🇶 IQ 02 - xiaohe
   server: 193.56.135.212
   port: 9543
   udp: true
@@ -17,19 +32,6 @@ proxies:
     short-id: 123abcde
   servername: storage.yandexcloud.net
   client-fingerprint: chrome
-- name: 🇮🇶 IQ 02 - xiaohe
-  server: 193.56.135.137
-  port: 9543
-  udp: true
-  type: vless
-  uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa
-  flow: xtls-rprx-vision
-  tls: true
-  reality-opts:
-    public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc
-    short-id: 123abcde
-  servername: storage.yandexcloud.net
-  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
