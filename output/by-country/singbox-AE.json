@@ -4,15 +4,36 @@
   },
   "outbounds": [
     {
-      "type": "hysteria2",
+      "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 01 - xiaohe",
+      "server": "151.242.160.153",
+      "server_port": 10443,
+      "uuid": "e327401a-0897-4d45-8d5a-af685c7ee363",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.bmw.com",
+        "utls": {
+          "enabled": true,
+          "fingerprint": "safari"
+        },
+        "reality": {
+          "enabled": true,
+          "public_key": "eWyasLSR__8dXzVzs6PZz2eSXRIcgbw0OAJwNWn6al0",
+          "short_id": "b1"
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
       "server": "130.49.161.70",
       "server_port": 443,
       "password": "p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR",
       "tls": {
         "enabled": true,
         "server_name": "hy2.aspidnet.xyz",
-        "insecure": false
+        "insecure": true
       },
       "obfs": {
         "type": "salamander",
@@ -21,7 +42,7 @@
     },
     {
       "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 02 - xiaohe",
+      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
       "server": "78.40.195.140",
       "server_port": 443,
       "uuid": "eec2f6a7-c10f-43b0-b133-61f9bf9bbc27",
@@ -31,7 +52,7 @@
         "server_name": "www.booking.com",
         "utls": {
           "enabled": true,
-          "fingerprint": "qq"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
@@ -41,30 +62,9 @@
       }
     },
     {
-      "type": "vless",
-      "tag": "🇦🇪 阿联酋 (UAE) 03 - xiaohe",
-      "server": "94.183.224.45",
-      "server_port": 443,
-      "uuid": "d72f05b0-b182-4783-a6f2-21cecc7d841a",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "dzen.ru",
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "enabled": true,
-          "public_key": "SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js",
-          "short_id": "a1b2c3d4e5f67890"
-        }
-      }
-    },
-    {
       "type": "hysteria2",
       "tag": "🇦🇪 阿联酋 (UAE) 04 - xiaohe",
-      "server": "85.204.107.181",
+      "server": "85.204.107.177",
       "server_port": 8080,
       "password": "Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0",
       "tls": {
@@ -111,21 +111,21 @@
     {
       "type": "vless",
       "tag": "🇦🇪 阿联酋 (UAE) 07 - xiaohe",
-      "server": "139.185.44.42",
-      "server_port": 8443,
-      "uuid": "b0fa80ad-d759-4bcc-a0fd-f802d53b5a88",
+      "server": "94.183.224.45",
+      "server_port": 443,
+      "uuid": "d72f05b0-b182-4783-a6f2-21cecc7d841a",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "www.microsoft.com",
+        "server_name": "dzen.ru",
         "utls": {
           "enabled": true,
-          "fingerprint": "chrome"
+          "fingerprint": "firefox"
         },
         "reality": {
           "enabled": true,
-          "public_key": "VlWMFvYxwGIsctI7BfOgC4PCG3EMToD7_H8vWcRB42w",
-          "short_id": "855834d3b002ad21"
+          "public_key": "SibLV5WBGdljTiUCmKx77KhHQfErCwjDMD_ZLoha3js",
+          "short_id": "a1b2c3d4e5f67890"
         }
       }
     },
