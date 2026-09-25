@@ -5,34 +5,25 @@ mode: rule
 log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - xiaohe
-  server: 188.114.97.6
-  port: 443
+  server: 172.67.149.27
+  port: 80
   udp: true
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  tls: true
-  servername: server9.9966338.xyz
-  skip-cert-verify: false
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   network: ws
   ws-opts:
-    path: /imnotarealherox
+    path: /snob-ws
     headers:
-      Host: server9.9966338.xyz
+      Host: fi.snobvpn.online
 - name: 🌐 其他地区 (Other) 02 - xiaohe
-  server: 104.18.15.103
-  port: 443
+  server: 172.67.149.27
+  port: 80
   udp: true
   type: vless
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  tls: true
-  servername: server9.9966338.xyz
-  skip-cert-verify: false
-  client-fingerprint: chrome
+  uuid: 246b101b-4e4a-451f-8e9c-5e8d3b64b4ef
   network: ws
   ws-opts:
-    path: /imnotarealherox
-    headers:
-      Host: server9.9966338.xyz
+    path: /snob-ws
 proxy-groups:
 - name: PROXIES
   type: select
