@@ -5,14 +5,16 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇿 捷克 (Czech) 01 - xiaohe
-  server: 153.76.185.104
-  port: 3090
+  server: 151.101.56.255
+  port: 443
   udp: true
-  type: vless
-  uuid: 6bd9b04b-17de-4f05-b8b8-e5f2a0a649c1
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
+  type: trojan
+  password: MiTiVPN
+  sni: ssl.fastly.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
 proxy-groups:
 - name: PROXIES
   type: select
